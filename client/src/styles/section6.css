@@ -1,0 +1,384 @@
+
+.Section6container h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+@media (min-width:1200px) {
+    .Section6container   h2 {
+        font-size: 2rem;
+    }
+}
+
+.Section6container p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.Section6container img {
+    vertical-align: middle;
+}
+
+.Section6container button {
+    border-radius: 0;
+}
+
+.Section6container button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+.Section6container button,
+.Section6container input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.Section6container button {
+    text-transform: none;
+}
+
+[type=submit],
+.Section6container button {
+    -webkit-appearance: button;
+}
+
+[type=submit]:not(:disabled),
+.Section6container button:not(:disabled) {
+    cursor: pointer;
+}
+
+.Section6container .container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .Section6container   .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .Section6container   .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .Section6container   .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .Section6container   .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+    .Section6container  .container {
+        max-width: 1320px;
+    }
+}
+
+.Section6container .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.Section6container .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:992px) {
+    .Section6container  .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.Section6container .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .Section6container  .form-control {
+        transition: none;
+    }
+}
+
+.Section6container .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.Section6container .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    opacity: 1;
+}
+
+.Section6container .form-control:disabled {
+    background-color: var(--bs-secondary-bg);
+    opacity: 1;
+}
+
+.Section6container .align-items-center {
+    align-items: center !important;
+}
+
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/style.css */
+.Section6container button {
+    outline: 0 !important;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.Section6container button:focus {
+    box-shadow: none;
+}
+
+.Section6container h2 {
+    color: #1b2336;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.Section6container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.Section6container p:last-child {
+    margin-bottom: 0;
+}
+
+.Section6container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Section6container .form-control {
+    height: 55px;
+    color: #1b2336;
+    border: 1px solid #fff;
+    background-color: #e5e5e5;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all ease .5s;
+    border-radius: 5px;
+}
+
+.Section6container .form-control::placeholder {
+    color: #757575;
+}
+
+.Section6container .form-control:focus {
+    color: #000;
+    background-color: #e5e5e5;
+    box-shadow: unset;
+    outline: 0;
+    border: 1px solid #2279fc;
+}
+
+.Section6container .form-control:hover:focus,
+.Section6container .form-control:focus {
+    box-shadow: unset;
+}
+
+.Section6container .bg-color-3270ff {
+    background-color: #3270ff;
+}
+
+.Section6container .default-btn {
+    font-size: 16px;
+    color: #fff;
+    transition: all ease .5s;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-grid;
+    padding: 12px 40px;
+    background-color: #2279fc;
+    border-radius: 3px;
+    border: 1px solid #2279fc;
+}
+
+.Section6container .default-btn:hover {
+    color: #fff;
+    background-color: #00ca99;
+}
+
+.Section6container .subscribe-bg {
+    border-radius: 10px;
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.Section6container .subscribe-bg .subscribe-shape {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.Section6container .subscribe-content h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Section6container .subscribe-content p {
+    color: #fff;
+}
+
+.Section6container .newsletter-wrap .newsletter-form {
+    position: relative;
+}
+
+.Section6container .newsletter-wrap .newsletter-form .form-control {
+    background-color: #fff;
+}
+
+.Section6container .newsletter-wrap .newsletter-form .default-btn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    height: 49px;
+    padding: 10px 25px;
+    background-color: #2279fc;
+}
+
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/responsive.css */
+@media only screen and (max-width: 767px) {
+    .Section6container   .default-btn {
+        font-size: 14px;
+        padding: 9px 15px;
+    }
+
+    .Section6container  .form-control {
+        height: 50px;
+    }
+
+    .Section6container  p {
+        font-size: 15px;
+    }
+
+    .Section6container  .subscribe-bg {
+        padding: 20px;
+    }
+
+   .Section6container  .subscribe-content h2 {
+        font-size: 25px;
+    }
+
+   .Section6container  .newsletter-wrap {
+        margin-top: 20px;
+    }
+
+   .Section6container  .newsletter-wrap .newsletter-form .default-btn {
+        position: unset;
+        margin: auto;
+        margin-top: 10px;
+        display: table;
+        background-color: #00ca99;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+    .Section6container  .default-btn {
+        font-size: 14px;
+        padding: 9px 15px;
+    }
+
+    .Section6container  .form-control {
+        height: 50px;
+    }
+
+    .Section6container  p {
+        font-size: 15px;
+    }
+
+    .Section6container  .subscribe-bg {
+        padding: 20px;
+    }
+
+    .Section6container  .subscribe-content h2 {
+        font-size: 25px;
+    }
+
+    .Section6container  .newsletter-wrap {
+        margin-top: 20px;
+    }
+
+    .Section6container  .newsletter-wrap .newsletter-form .default-btn {
+        position: unset;
+        margin: auto;
+        margin-top: 10px;
+        display: table;
+        background-color: #00ca99;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px)and (max-width: 1199px) {
+    .Section6container  .subscribe-bg {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .Section6container   .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+}
+
+@media only screen and (min-width: 1200px)and (max-width: 1399px) {
+    .Section6container   .container {
+        max-width: 1320px;
+    }
+}
+
+/*! CS

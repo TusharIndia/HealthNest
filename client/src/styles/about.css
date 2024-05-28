@@ -1,0 +1,37 @@
+.medicontainer{
+    width: 90vw;
+    margin: auto;
+    
+    padding-top: 3rem;
+
+
+}
+.medicontainer .medicontainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:4rem;
+}
+.medicontainer h2{
+  font-size: 4rem;
+}
+.medicontainer .medicontainer2 span{
+    font-size: 0.8rem;
+    color: rgb(38, 38, 181);
+}
+.medicontainer .medi{
+    width: 90vw;
+    height: 58vw;
+  margin-bottom: 10rem;
+    border-radius: 1rem;
+
+    box-shadow:  blueviolet 2rem 2rem 5rem;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.medi nav{
+    width: 15vw;
+}

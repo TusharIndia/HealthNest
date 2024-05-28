@@ -1,0 +1,359 @@
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/bootstrap.min.css */
+
+
+@media (min-width:1200px) {
+    .Section3container  h2 {
+        font-size: 2rem;
+    }
+}
+
+.Section3container h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+@media (min-width:1200px) {
+    .Section3container   h3 {
+        font-size: 1.75rem;
+    }
+}
+
+.Section3container ul {
+    padding-left: 2rem;
+}
+
+.Section3container ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.Section3container a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+}
+
+.Section3container a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+.Section3container img {
+    vertical-align: middle;
+}
+
+.Section3container .container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .Section3container   .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+  .Section3container   .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+   .Section3container  .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+  .Section3container   .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+   .Section3container  .container {
+        max-width: 1320px;
+    }
+}
+
+.Section3container .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.Section3container .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:576px) {
+    .Section3container    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width:992px) {
+    .Section3container   .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/remixicon.css */
+[class^="ri-"] {
+    font-family: 'remixicon' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Section3container .ri-facebook-fill:before {
+    content: "\ecbc";
+}
+
+.Section3container .ri-instagram-line:before {
+    content: "\ee66";
+}
+
+.Section3container .ri-linkedin-fill:before {
+    content: "\eeb5";
+}
+
+.Section3container .ri-twitter-line:before {
+    content: "\f23b";
+}
+
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/style.css */
+.Section3container a {
+    transition: all ease .5s;
+    text-decoration: none;
+    color: #415674;
+}
+
+.Section3container a:hover {
+    text-decoration: none;
+    color: #2279fc;
+}
+
+.Section3container a:focus {
+    text-decoration: none;
+}
+
+.Section3container h2,
+.Section3container h3 {
+    color: #1b2336;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.Section3container h3 {
+    font-weight: 600;
+}
+
+.Section3container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Section3container .pt-100 {
+    padding-top: 100px;
+}
+
+.Section3container .pb-70 {
+    padding-bottom: 70px;
+}
+
+.Section3container .section-title {
+    max-width: 700px;
+    margin: -5px auto 50px;
+    text-align: center;
+    position: relative;
+}
+
+.Section3container .section-title .top-title {
+    font-size: 14px;
+    color: #00ca99;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.Section3container .section-title h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.Section3container .section-title h2:last-child {
+    margin-bottom: 0;
+}
+
+.Section3container .single-doctor {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    transition: all ease .5s;
+    box-shadow: 0px 5px 50px rgba(50, 112, 252, .08);
+    margin-bottom: 30px;
+}
+
+.Section3container .single-doctor img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Section3container .single-doctor h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: all ease .5s;
+}
+
+.Section3container .single-doctor span {
+    transition: all ease .5s;
+}
+
+.Section3container .single-doctor ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.Section3container .single-doctor ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.Section3container .single-doctor ul li:last-child {
+    margin-right: 0;
+}
+
+.Section3container .single-doctor ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #2279fc;
+}
+
+.Section3container .single-doctor ul li a:hover {
+    background-color: #00ca99;
+}
+
+.Section3container .single-doctor ul li a i {
+    font-size: 15px;
+}
+
+.Section3container .single-doctor:hover {
+    transform: translateY(-5px);
+}
+
+.Section3container .single-doctor:hover h3 {
+    opacity: 0;
+}
+
+.Section3container .single-doctor:hover span {
+    opacity: 0;
+}
+
+.Section3container .single-doctor:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*! CSS Used from: https://templates.envytheme.com/tefri/default/assets/css/responsive.css */
+@media only screen and (max-width: 767px) {
+    .Section3container    .pt-100 {
+        padding-top: 60px;
+    }
+
+    .Section3container    .pb-70 {
+        padding-bottom: 30px;
+    }
+
+    .Section3container    .section-title {
+        margin-bottom: 35px;
+    }
+
+    .Section3container   .section-title .top-title {
+        margin-bottom: 10px;
+    }
+
+    .Section3container   .section-title h2 {
+        font-size: 25px;
+    }
+
+    .Section3container   .single-doctor {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+    .Section3container   .pt-100 {
+        padding-top: 60px;
+    }
+
+    .Section3container   .pb-70 {
+        padding-bottom: 30px;
+    }
+
+    .Section3container  .section-title {
+        margin-bottom: 35px;
+    }
+
+    .Section3container  .section-title .top-title {
+        margin-bottom: 10px;
+    }
+
+    .Section3container   .section-title h2 {
+        font-size: 28px;
+    }
+
+    .Section3container  .single-doctor {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px)and (max-width: 1199px) {
+    .Section3container  .single-doctor {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .Section3container  .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+}
+
+@media only screen and (min-width: 1200px)and (max-width: 1399px) {
+    .Section3container  .container {
+        max-width: 1320px;
+    }
+}
+
+/*! CSS Used fontfaces */
